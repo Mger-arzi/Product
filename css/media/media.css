@@ -92,12 +92,12 @@
         display: block;
         width: 60px;
         height: 40px;
-        background: url(./img/icons8-меню-50.png) no-repeat center;
+        background: url(/img/icons8-меню-50.png) no-repeat center;
         transition: .2s linear;
         transform: rotate(0deg);
     }
     .burger.active{
-        background: url(./img/starlink.png) no-repeat center;
+        background: url(/img/starlink.png) no-repeat center;
         transform: rotate(360deg);
 
     }
