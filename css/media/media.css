@@ -1,0 +1,227 @@
+@media(max-width:1250px){
+    .header_fixed{
+        padding: 50px,0px,54px,0px;
+    }
+    .hero-iner-wrapper{
+        padding: 93px 10px 33px 10px;
+        background-size: auto;
+    }
+    .wrapper.vegetable-inner-wrapper{
+        padding: 89px 10px 143px 10px;
+    }
+    .customers{
+        padding: 96px 10px 150px 10px;
+    }
+    .customers-title{
+        font-size: 60px;
+        line-height: 80px;
+    }
+    .app{
+        padding: 0px 10px 140px;
+    }
+    .app-wrapper{
+        padding: 0 50px;
+    }
+    .footer{
+        padding: 67px 10px 118px;
+    }
+}
+
+
+
+@media(max-width:980px){
+    .hero-wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .hero-list{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex: 1;
+        gap: 10px;
+    }
+    .hero-item:not(:last-child){
+        margin-bottom: 0;
+    }
+    .hero-img{
+        width: 100%;
+    }
+    .customer-wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+    .app-wrapper{
+        padding: 0 ;
+        flex-direction: column-reverse;
+    }
+    .footer-blok{
+        width: 48%;
+    }
+}
+
+
+
+
+@media(max-width:850px){
+    .nav{
+        position: absolute;
+        z-index: 2;
+        background: var(--color-white);
+        left: -50%;
+        right: 100%;
+        bottom: 0;
+        top: 120px;
+        height: 100vh;
+        overflow-x: hidden;
+        border-top: 1px solid green;
+        transition: .4s linear;
+
+    }
+    .nav.active{
+        right: 0;
+        left: 0;
+    }
+    .menu{
+        flex-direction: column;
+        padding: 30px;
+        gap: 30px;
+    }
+    .burger{
+        display: block;
+        width: 60px;
+        height: 40px;
+        background: url(../img/google22.png) no-repeat center;
+        transition: .2s linear;
+        transform: rotate(0deg);
+    }
+    .burger.active{
+        background: url(../img/starlink.png) no-repeat center;
+        transform: rotate(360deg);
+
+    }
+}
+
+
+
+@media(max-width:768px){
+    
+    .header-logo{
+        width: 45px;
+    }
+    .header-link{
+        display: none;
+    }
+    .cart{
+        margin: 0 5px 0 20px;
+    }
+    .service-item{
+        margin: 0 auto 20px;
+    }
+    .wrapper.vegetable-inner-wrapper{
+        background-size: 50%;
+    }
+    .inner-title{
+        text-align: center;
+    }
+    .customer-content{
+        width: 100%;
+    }
+    .customer-text{
+        width: 100%;
+    }
+    .customer-img{
+        display: flex;
+        justify-content: center;
+    }
+    .customer-img{
+        width: 100%;
+        height: 100%;
+    }
+    .app-content{
+        width: 100%;
+    }
+    .app-text{
+        width: 100%;
+    }
+    .app{
+        padding: 0px 10px 70px;
+    }
+    .app-title{
+        font-size: 60px;
+        line-height: 80px;
+    }
+    .footer-blok{
+        width: 100%;
+    }
+    .footer-title{
+        margin: 0px 0 40px;
+    }
+    .customer-title {
+        width: 100%
+}
+}
+
+
+
+@media(max-width:590px){
+    .service_wrapper{
+        gap: 50px;
+    }
+    .service-img{
+        width: 100%;
+        height: 100%;
+        background-image: url(/img/elips-fruit.png);
+        background-position: bottom 0px center;
+        background-size: auto;
+    }
+    .customer-img{
+        width: 100%;
+        height: 100%;
+    }
+    .header_fixed{
+        padding: 50px,0px,54px,0px;
+    }
+    
+
+
+
+}
+@media(max-width:450px){
+    form.form{
+        display: none;
+    }
+    .cart{
+        margin: 0 5px 0 0px;
+    }
+    .hero-title{
+        font-size: 50px;
+        line-height:70px;
+    }
+    .service-item{
+        padding: 40px 20px 40px 20px;
+    }
+    .service-item span:first-child,
+    .service-item::before{
+        display: none;
+    }
+    .inner-title{
+        font-size: 45px;
+        line-height: 60px;
+        text-align: center;
+    }
+    .service-img{
+        background-size: 100%;
+    }
+    .app-title{
+        font-size: 50px;
+        line-height: 65px;
+    }
+    .footer-text{
+        width: 100%;
+    }
+    .customer-title {
+        width: 100%
+}
+}
